@@ -1,6 +1,6 @@
 info.txt
 .terraform*
 terraform.tfvars
-terraform.*
+terraform.tfstate*
 todo.txt
 azurek8s

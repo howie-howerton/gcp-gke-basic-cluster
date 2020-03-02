@@ -1,0 +1,10 @@
+# THE FOLLOWING VARIABLES MUST BE CUSTOMIZED FOR YOUR AZURE ENVIRONMENT!!!
+key_file           = "${file("/path/to/your/service/account/key_file.json")}"
+
+
+# THE FOLLOWING VARIABLES CAN BE LEFT AS IS OR BE CUSTOMIZED AS YOU SEE FIT.
+project_name        = "gke-basic-cluster"
+location            = "us-east1-b"             # Regions/Zones Reference: https://cloud.google.com/compute/docs/regions-zones
+cluster_name        = "k8s-demo"
+node_count          = "1"
+machine_type        = "n1-standard-1"
