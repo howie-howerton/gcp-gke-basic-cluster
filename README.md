@@ -3,9 +3,9 @@ A terraform template to create a basic GKE cluster on Google Cloud Platform
 
 ## Detailed Description
 
-This terraform template is designed to facilitate the creation of a 'vanilla' GCP EKS cluster for usage with testing/demos/etc.
+This terraform template is designed to facilitate the creation of a 'vanilla' GCP GKE cluster for usage with testing/demos/etc.
 It will create:
-- A new EKS cluster within an *existing* GCP Project
+- A new GKE cluster within an *existing* GCP Project
 
 The output from running the template will contain the gcloud command to set the local Kubernetes config that you'll need in order to use the kubectl command line utility.  That command will look something like this:
 ```
